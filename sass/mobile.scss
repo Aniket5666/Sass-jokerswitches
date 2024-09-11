@@ -1,0 +1,133 @@
+@media (max-width: 1080px) {
+    .navigation .navbar {
+        flex-direction: column;
+        display:none;
+    }
+    
+    .navigation .mobilenav{
+            display: flex;
+        }
+    
+    
+   
+
+    .navigation .navitems ul {
+        flex-direction: column;
+        align-items: flex-start;
+        display:none;
+    }
+   
+    
+
+    .genz .genz_utilitysec .genz_uppercards {
+        grid-template-columns: 1fr;
+    }
+
+    .genz .genz_utilitysec .genz_lowercards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop_exiciting_offers .shop_exiciting_utility .shop_exciting_cards_SECTION {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .top_launches .top_launches_ultility .toplaunches_cardsec {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop_by_category .shop_by_category_utility .shop_by_uppercards_sec {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop_by_category .shopbycategory_overlaycards_section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .shop_by_category .shopby_category_banner .banner_content {
+        position: absolute;
+        bottom: 5rem;
+        left: 5rem;
+        font-size: 1em;
+        color: white;
+    }
+    .ourmuses .ourmuses_utility .ourmuses_cards_section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .medialove{
+       
+        .medialove_utility{
+           
+            .medialove_logo{
+                display: flex;
+               flex-direction: column;
+            }
+    
+        }
+    
+    }
+
+    .footer .footerlower {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+  
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 640px) {
+    .navigation .nav_socialmediaicons ul {
+        justify-content: center;
+    }
+
+    .navigation .navitems ul {
+        gap: 10px;
+        font-size: 0.9em;
+    }
+   
+
+
+    .genz .genz_utilitysec .genz_uppercards,
+    .genz .genz_utilitysec .genz_lowercards {
+        grid-template-columns: 1fr;
+    }
+
+    .shop_exiciting_offers .shop_exiciting_utility .shop_exciting_cards_SECTION {
+        grid-template-columns: 1fr;
+    }
+
+    .top_launches .top_launches_ultility .toplaunches_cardsec {
+        grid-template-columns: 1fr;
+    }
+
+    .shop_by_category .shop_by_category_utility .shop_by_uppercards_sec,
+    .shop_by_category .shopbycategory_overlaycards_section {
+        grid-template-columns: 1fr;
+    }
+
+    .ourmuses .ourmuses_utility .ourmuses_cards_section {
+        grid-template-columns: 1fr;
+    }
+
+    .shop_by_category .shopby_category_banner .banner_content {
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        font-size: 1em;
+        color: white;
+    }
+
+    .shopby_category_banner .banner_content {
+        left: 1rem;
+        bottom: 2rem;
+        font-size: 1.5em;
+    }
+
+    .footer .footerlower {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer .upperfooter img {
+        height: 5em;
+    }
+}
